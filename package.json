@@ -1,0 +1,19 @@
+{
+  "name": "busca-tolerante-ptbr",
+  "version": "1.0.0",
+  "description": "Busca que entende o que a pessoa quis digitar em português: grafias que soam igual, letra trocada, tecla vizinha e palavras grudadas.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": ["busca", "fuzzy", "portugues", "pt-br", "corretor", "fonetica", "typescript"],
+  "author": "Miqueias Marques",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
